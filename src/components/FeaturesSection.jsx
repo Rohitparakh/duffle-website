@@ -9,7 +9,7 @@ import elipse from '../assets/elipse.png';
 
 const FeaturesSection = () => {
   return (
-    <section className="flex overflow-hidden flex-col justify-center items-center px-4 md:px-16  py-12 md:py-52 w-full bg-neutral-100">
+    <section id="features" className="flex overflow-hidden flex-col justify-center items-center px-4 md:px-16  py-12 md:py-52 w-full bg-neutral-100">
       <div className="flex justify-between w-full items-center md:px-12 text-xs">
         <div className="flex gap-2.5 justify-center items-center py-1 mb-4 font-semibold tracking-wider leading-8 text-center text-orange-500 uppercase whitespace-nowrap rounded-[99px]">
           <div className="flex shrink-0 self-stretch my-auto w-4 bg-orange-500 rounded h-[5px]" />

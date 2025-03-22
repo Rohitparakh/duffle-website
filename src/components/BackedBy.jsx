@@ -22,7 +22,7 @@ export default function BackedBy() {
     };
 
     return (
-        <div className="relative w-full flex flex-col items-center gap-10 py-12 overflow-hidden lg:overflow-auto">
+        <div id="dontMissOut" className="relative w-full flex flex-col items-center gap-10 py-12 overflow-hidden lg:overflow-auto">
             {/* 📌 Background Image (Covers Entire Section) */}
             <div className="absolute inset-0 w-full h-full -z-10">
                 <img

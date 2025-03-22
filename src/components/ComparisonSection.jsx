@@ -6,7 +6,7 @@ import robinhood from '../assets/robinhood.png';
 
 export default function WhyUsSection() {
   return (
-    <section className="flex flex-col px-40 pt-48 w-full bg-neutral-100 max-md:px-5 max-md:pt-24">
+    <section id="positioning" className="flex flex-col px-40 pt-48 w-full bg-neutral-100 max-md:px-5 max-md:pt-24">
       {/* Section Header */}
       <div className='flex justify-between w-full items-center  text-xs'>
         <div className="flex gap-2.5 justify-center items-center  py-1 mb-4 font-semibold tracking-wider leading-8 text-center text-orange-500 uppercase whitespace-nowrap rounded-[99px] ">
@@ -78,7 +78,7 @@ export default function WhyUsSection() {
         {/* Robinhood */}
         <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-4 max-md:gap-10 max-md:p-2">
           <div>
-          <img src={coinbase} className='h-16'/>
+          <img src={robinhood} className='h-16'/>
 
           <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">ROBINHOOD</h3>
           </div>

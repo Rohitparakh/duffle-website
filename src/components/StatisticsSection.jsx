@@ -7,7 +7,7 @@ import robot from '../assets/robot.png';
 
 const StatisticsSection = () => {
   return (
-    <section className="flex relative overflow-hidden flex-col px-8 py-52 w-full bg-neutral-100 max-md:px-5 max-md:py-24 max-md:max-w-full">
+    <section id="statistics" className="flex relative overflow-hidden flex-col px-8 py-52 w-full bg-neutral-100 max-md:px-5 max-md:py-24 max-md:max-w-full">
       {/* Blue Box Container */}
       <div className="flex relative flex-col px-20 pt-11 mb-0 w-full bg-sky-500 rounded-[52px] max-md:px-5 max-md:mb-2.5 max-md:max-w-full">
         {/* Robot Image */}
