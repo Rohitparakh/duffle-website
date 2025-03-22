@@ -96,7 +96,7 @@ const StatisticsSection = () => {
           {/* Third Card */}
           <article className="bg-[#f5f5f5] relative shadow-lg rounded-3xl border border-blue-500 p-6 text-center w-[18rem] h-[16rem] flex flex-col justify-between max-md:w-full max-md:h-auto max-md:p-8">
             {/* Wallet Icon - Adjusted higher */}
-            <div className="absolute -top-24 left-8 max-md:-top-16 max-md:left-1/2 max-md:-translate-x-1/2">
+            <div className="absolute -top-40 left-8 max-md:-top-16 max-md:left-1/2 max-md:-translate-x-1/2">
               <img
                 src={fintech_wallet}
                 alt="Wallet"
