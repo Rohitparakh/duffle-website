@@ -27,7 +27,8 @@ const Footer = () => {
                     />
 
                     {/* CTA Section */}
-                    <div className="flex flex-col items-center text-center space-y-4">
+                    <div className="flex md:flex-row flex-col md:gap-10 gap-5 items-center text-center space-y-4">
+                        <div className='flex flex-col gap-2'>
                         <p className="text-gray-900 font-medium text-lg md:text-xl">
                             Ready to experience the difference? 🚀
                         </p>
@@ -35,12 +36,14 @@ const Footer = () => {
                         {/* Social Links */}
                         <div className="flex items-center gap-4 text-gray-700">
                             <span className="text-sm">Stay up to date</span>
-                            <a href="#" className="text-xl hover:text-black">
+                            <a href="https://x.com/dufflelabs" target='_blank' className="text-xl hover:text-black">
                                     <img src={twitter} height={26} width={26}/>
                                 </a>
                                 <a href="#" className="text-xl hover:text-black">
                                 <img src={discord} height={26} width={26}/>
                                 </a>
+                        </div>
+
                         </div>
 
                         {/* Launch App Button */}

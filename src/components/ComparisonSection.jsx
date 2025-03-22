@@ -34,69 +34,75 @@ export default function WhyUsSection() {
       </p>
 
       {/* Comparison Table */}
-      <div className="mt-36 grid grid-cols-5 gap-6 md:gap-3 text-center border border-gray-300 rounded-lg max-md:text-sm">
-        {/* Empty Column for Alignment */}
-        <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-2 max-md:gap-10 max-md:p-2">
-          <h5 className="text-xs font-semibold uppercase mt-12 mb-8 "></h5>
-          <p className="text-xs font-semibold uppercase max-md:text-[10px]">YEILD</p>
-          <p className="text-xs uppercase max-md:text-[10px]">SECURITY</p>
-          <p className="text-xs uppercase max-md:text-[10px]">FEES</p>
-          <p className="text-xs uppercase max-md:text-[10px]">WITHDRAWALS</p>
-        </div>
+      <div className='h-[1000px] pt-36 overflow-x-auto overflow-y-hidden' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
+      <div className=" ">
+  <div className="grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center border border-gray-300 rounded-lg max-md:text-sm min-w-[800px] ">
+    {/* Empty Column for Alignment */}
+    <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-2 max-md:gap-10 max-md:p-2">
+      <h5 className="text-xs font-semibold uppercase mt-12 mb-8 "></h5>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">YEILD</p>
+      <p className="text-xs uppercase max-md:text-[10px]">SECURITY</p>
+      <p className="text-xs uppercase max-md:text-[10px]">FEES</p>
+      <p className="text-xs uppercase max-md:text-[10px]">WITHDRAWALS</p>
+    </div>
 
-        {/* Duttle (Highlighted) */}
-        <div className="h-[120%] pt-[7rem] -top-[10%] relative flex flex-col gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)]  border-r   ">
-          <img
-            src={duffleLogo}
-            alt="Duttle"
-            className="w-[150px] "
-          />
-         <div className='flex flex-col gap-16 mt-[15px]'>
-         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">6%-15%</p>
-          <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">Protected deposits</p>
-          <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[20px]">No fees</p>
-          <p className="text-xs md:font-bold uppercase max-md:text-[10px] -mt-[20px]">Instant</p>
-         </div>
-          <img
-            src={bigger_than_crypto}
-            alt="Duffle"
-            className="w-[20rem] relative bottom-8 max-md:w-[10rem] max-md:bottom-4 mt-16"
-          />
-        </div>
-
-        {/* Coinbase */}
-        <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-4 max-md:gap-10 max-md:p-2">
-          <div><img src={coinbase} className='h-16'/>
-          <h3 className="text-xs font-semibold uppercase  max-md:mt-6 max-md:mb-8">COINBASE</h3>
-          </div>
-          <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
-          <p className="text-xs uppercase max-md:text-[10px]">FDIC (BANK ONLY)</p>
-          <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
-          <p className="text-xs uppercase max-md:text-[10px]">2-3 Days</p>
-        </div>
-
-        {/* Robinhood */}
-        <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-4 max-md:gap-10 max-md:p-2">
-          <div>
-          <img src={robinhood} className='h-16'/>
-
-          <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">ROBINHOOD</h3>
-          </div>
-          <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
-          <p className="text-xs uppercase max-md:text-[10px]">FDIC (BANK ONLY)</p>
-          <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
-          <p className="text-xs uppercase max-md:text-[10px]">2-3 Days</p>
-        </div>
-
-        {/* Other DeFi */}
-        <div className="flex flex-col gap-20 items-center p-4 max-md:gap-10 max-md:p-2 mt-4">
-          <h3 className="text-xs font-semibold uppercase mt-12 max-md:mb-8">OTHER DEFI</h3>
-          <p className="text-xs font-semibold uppercase max-md:text-[10px]">6%-20%+</p>
-          <p className="text-xs uppercase max-md:text-[10px]">No protection</p>
-          <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
-          <p className="text-xs uppercase max-md:text-[10px]">Mixed</p>
-        </div>
+    {/* Duttle (Highlighted) */}
+    <div className="relative z-[999] flex flex-col gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] border-r h-[120%] pt-[7rem] -top-[10%]">
+      <img
+        src={duffleLogo}
+        alt="Duttle"
+        className="w-[150px]"
+      />
+      <div className="flex flex-col gap-16 mt-[15px]">
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">6%-15%</p>
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">Protected deposits</p>
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[20px]">No fees</p>
+        <p className="text-xs md:font-bold uppercase max-md:text-[10px] -mt-[20px]">Instant</p>
       </div>
+      <img
+        src={bigger_than_crypto}
+        alt="Duffle"
+        className="w-[20rem] relative bottom-8 max-md:w-[10rem] max-md:bottom-4 mt-16"
+      />
+    </div>
+
+    {/* Coinbase */}
+    <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-4 max-md:gap-10 max-md:p-2">
+      <div>
+        <img src={coinbase} className="h-16" />
+        <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">COINBASE</h3>
+      </div>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
+      <p className="text-xs uppercase max-md:text-[10px]">FDIC (BANK ONLY)</p>
+      <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
+      <p className="text-xs uppercase max-md:text-[10px]">2-3 Days</p>
+    </div>
+
+    {/* Robinhood */}
+    <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-4 max-md:gap-10 max-md:p-2">
+      <div>
+        <img src={robinhood} className="h-16" />
+        <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">ROBINHOOD</h3>
+      </div>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
+      <p className="text-xs uppercase max-md:text-[10px]">FDIC (BANK ONLY)</p>
+      <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
+      <p className="text-xs uppercase max-md:text-[10px]">2-3 Days</p>
+    </div>
+
+    {/* Other DeFi */}
+    <div className="flex flex-col gap-20 items-center p-4 max-md:gap-10 max-md:p-2 mt-4">
+      <h3 className="text-xs font-semibold uppercase mt-12 max-md:mb-8">OTHER DEFI</h3>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">6%-20%+</p>
+      <p className="text-xs uppercase max-md:text-[10px]">No protection</p>
+      <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
+      <p className="text-xs uppercase max-md:text-[10px]">Mixed</p>
+    </div>
+  </div>
+      </div>
+      </div>
+
+
     </section>
   );
 }
