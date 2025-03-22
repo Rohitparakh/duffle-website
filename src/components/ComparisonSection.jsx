@@ -8,11 +8,12 @@ export default function WhyUsSection() {
   return (
     <section className="flex flex-col px-40 pt-48 w-full bg-neutral-100 max-md:px-5 max-md:pt-24">
       {/* Section Header */}
-      <div className="flex flex-wrap gap-5 justify-between w-full text-xs font-semibold tracking-wider leading-8 uppercase max-w-[1166px] max-md:max-w-full">
-        <div className="flex gap-2.5 justify-center items-center px-6 text-center text-orange-500 whitespace-nowrap rounded-[99px] max-md:px-5">
+      <div className='flex justify-between w-full items-center  text-xs'>
+        <div className="flex gap-2.5 justify-center items-center  py-1 mb-4 font-semibold tracking-wider leading-8 text-center text-orange-500 uppercase whitespace-nowrap rounded-[99px] ">
           <div className="flex shrink-0 self-stretch my-auto w-4 bg-orange-500 rounded h-[5px]" />
-          <span className="self-stretch my-auto">positioning</span>
+          <span className="self-stretch my-auto">Positioning</span>
         </div>
+        <span className="text-gray-500">/ 05</span>
       </div>
 
       {/* Title & Description */}
@@ -35,8 +36,8 @@ export default function WhyUsSection() {
       {/* Comparison Table */}
       <div className="mt-36 grid grid-cols-5 gap-6 md:gap-3 text-center border border-gray-300 rounded-lg max-md:text-sm">
         {/* Empty Column for Alignment */}
-        <div className="flex flex-col items-center gap-20 border-r border-gray-300 p-4 max-md:gap-10 max-md:p-2">
-          <h5 className="text-xs font-semibold uppercase mt-12 mb-14 max-md:mt-6 max-md:mb-8"></h5>
+        <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-2 max-md:gap-10 max-md:p-2">
+          <h5 className="text-xs font-semibold uppercase mt-12 mb-8 "></h5>
           <p className="text-xs font-semibold uppercase max-md:text-[10px]">YEILD</p>
           <p className="text-xs uppercase max-md:text-[10px]">SECURITY</p>
           <p className="text-xs uppercase max-md:text-[10px]">FEES</p>
@@ -44,16 +45,18 @@ export default function WhyUsSection() {
         </div>
 
         {/* Duttle (Highlighted) */}
-        <div className="h-[120%] pt-[65%] -top-[10%] relative flex flex-col gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] p-6 border-r border-gray-300 max-md:gap-8 max-md:p-3">
+        <div className="h-[120%] pt-[7rem] -top-[10%] relative flex flex-col gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)]  border-r   ">
           <img
             src={duffleLogo}
             alt="Duttle"
-            className="w-full max-md:w-[80%]"
+            className="w-[150px] "
           />
-          <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] mt-[105px]">6%-15%</p>
+         <div className='flex flex-col gap-16 mt-[15px]'>
+         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">6%-15%</p>
           <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">Protected deposits</p>
           <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[20px]">No fees</p>
           <p className="text-xs md:font-bold uppercase max-md:text-[10px] -mt-[20px]">Instant</p>
+         </div>
           <img
             src={bigger_than_crypto}
             alt="Duffle"
@@ -87,7 +90,7 @@ export default function WhyUsSection() {
 
         {/* Other DeFi */}
         <div className="flex flex-col gap-20 items-center p-4 max-md:gap-10 max-md:p-2 mt-4">
-          <h3 className="text-xs font-semibold uppercase mt-12 mb-14 max-md:mt-6 max-md:mb-8">OTHER DEFI</h3>
+          <h3 className="text-xs font-semibold uppercase mt-12 max-md:mb-8">OTHER DEFI</h3>
           <p className="text-xs font-semibold uppercase max-md:text-[10px]">6%-20%+</p>
           <p className="text-xs uppercase max-md:text-[10px]">No protection</p>
           <p className="text-xs uppercase max-md:text-[10px]">No fees</p>

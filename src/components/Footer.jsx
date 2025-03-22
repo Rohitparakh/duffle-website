@@ -5,7 +5,7 @@ import twitter from '../assets/twitter.png';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[#F8F8F8] py-10 flex justify-center items-center border-t border-black rounded-[5rem] relative mt-36">
+        <footer className="w-full bg-[#F8F8F8] py-10 flex justify-center items-center border-t-2 border-[#101321] rounded-[5rem] relative mt-36">
             <div className="w-full max-w-[1440px] flex flex-col md:flex-row items-center justify-around px-6 md:px-12">
 
                 {/* Left: Image */}

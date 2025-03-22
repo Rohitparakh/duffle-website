@@ -31,13 +31,13 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden mt-4 bg-white shadow-md p-4">
+        <div className="md:hidden mt-4 bg-white shadow-md p-4 flex ">
           <ul className="flex flex-col space-y-4 text-gray-600">
             {["Lifestyle", "Features", "Statistics", "Don't miss out", "Positioning", "NFTs"].map((item) => (
               <li key={item} className="cursor-pointer hover:text-black transition">{item}</li>
             ))}
           </ul>
-          <button className="mt-4 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-900 transition">
+          <button className="mt-4  w-full bg-black text-white py-2 rounded-lg hover:bg-gray-900 transition">
             Launch App
           </button>
         </div>

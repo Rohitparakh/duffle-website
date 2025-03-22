@@ -3,7 +3,7 @@ import ComparisonSection from './components/ComparisonSection'
 import StatisticsSection from './components/StatisticsSection';
 import NFTSection from './components/NFTSection';
 import HeroSection from './components/HeroSection';
-import CryptoSection from './components/Lifestyle';
+import Lifestyle from './components/Lifestyle';
 import FeaturesSection from './components/FeaturesSection';
 import Navbar from './components/Navbar';
 import Rocket from './components/Rocket';
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
       <HeroSection />
-      <CryptoSection />
+      <Lifestyle />
       <Rocket />
       <StatisticsSection />
       <FeaturesSection />

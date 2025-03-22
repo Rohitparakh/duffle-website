@@ -9,7 +9,7 @@ import leftArrow from '../assets/leftArrow.png'
 import rightArrow from '../assets/rightArrow.png'
 
 
-export default function BackedBy () {
+export default function BackedBy() {
     const [currentIndex, setCurrentIndex] = useState(2);
     const totalCards = 5;
 
@@ -25,7 +25,7 @@ export default function BackedBy () {
         <div className="relative w-full flex flex-col items-center gap-10 py-12 overflow-hidden lg:overflow-auto">
             {/* 📌 Background Image (Covers Entire Section) */}
             <div className="absolute inset-0 w-full h-full -z-10">
-             <img
+                <img
                     src={industryBg}
                     alt="Industry Background"
                     className="w-[90%] h-[80%] relative left-[5%] object-cover border-black border-[3px] rounded-3xl"
@@ -34,10 +34,14 @@ export default function BackedBy () {
 
             {/* 📌 Header Section (Now inside the background) */}
             <div className="relative w-full max-w-3xl bg-white/90 p-6 rounded-3xl shadow-md text-center">
-            <div className="flex gap-2.5 justify-center items-center text-blue-500   py-1 mb-4 text-xs font-semibold tracking-wider leading-8 text-center  uppercase whitespace-nowrap rounded-[99px] max-md:px-5">
-                <div className="flex shrink-0 self-stretch my-auto w-4 bg-blue-500 rounded h-[5px]" />
-                <span className="self-stretch my-auto">Backed by</span>
-              </div>
+                <div className='flex justify-between w-full items-center md:px-12 text-xs'>
+                    <span></span>
+                    <div className="flex gap-2.5 justify-center items-center  py-1 mb-4 font-semibold tracking-wider leading-8 text-center text-blue-500 uppercase whitespace-nowrap rounded-[99px] ">
+                        <div className="flex shrink-0 self-stretch my-auto w-4 bg-blue-500 rounded h-[5px]" />
+                        <span className="self-stretch my-auto">backed by</span>
+                    </div>
+                    <span className="text-gray-500">/ 04</span>
+                </div>
                 <h2 className="text-3xl font-bold">The industries best</h2>
                 <img
                     src={angels}
@@ -88,14 +92,14 @@ export default function BackedBy () {
                     className="absolute left-5 text-2xl text-black p-2 rounded-full"
                 >
                     {/* <FaArrowLeft /> */}
-                    <img src={leftArrow} className="max-h-12"/>
+                    <img src={leftArrow} className="max-h-12" />
                 </button>
                 <button
                     onClick={nextSlide}
                     className="absolute right-5 text-2xl text-black p-2 rounded-full"
                 >
                     {/* <FaArrowRight /> */}
-                    <img src={rightArrow} className="max-h-12"/>
+                    <img src={rightArrow} className="max-h-12" />
                 </button>
             </div>
 

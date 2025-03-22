@@ -10,6 +10,7 @@ const Lifestyle = () => {
           <div className="flex shrink-0 self-stretch my-auto w-4 bg-orange-500 rounded h-[5px]" />
           <span className="self-stretch my-auto">lifestyle</span>
         </div>
+        <span className="text-[#7D7D7D]">/ 01</span>
       </div>
 
       {/* Main Content */}

@@ -21,15 +21,23 @@ const StatisticsSection = () => {
 
         {/* Content inside blue box */}
         <div className="relative z-10 max-md:max-w-full">
+          {/* Statistics Tag */}
+          {/* Full-width container with flexbox */}
+          <div className="flex justify-between items-center w-full py-1 text-xs font-semibold tracking-wider leading-8 text-center uppercase whitespace-nowrap text-neutral-100">
+
+            {/* Left - Statistics */}
+            <div className="flex items-center gap-2">
+              <div className="w-4 h-[5px] bg-neutral-100 rounded" />
+              <span>Statistics</span>
+            </div>
+
+            <span className=" ml-auto">/ 02</span>
+          </div>
           <div className="flex gap-5 max-md:flex-col">
+
             {/* Left Column */}
             <div className="w-[59%] max-md:w-full">
               <div className="flex flex-col w-full max-md:mt-10 max-md:max-w-full">
-                {/* Statistics Tag */}
-                <div className="flex gap-2.5 justify-center items-center self-start py-1 text-xs font-semibold tracking-wider leading-8 text-center uppercase whitespace-nowrap rounded-[99px] text-neutral-100 max-md:px-5">
-                  <div className="flex shrink-0 self-stretch my-auto w-4 rounded bg-neutral-100 h-[5px]" />
-                  <span className="self-stretch my-auto">Statistics</span>
-                </div>
 
                 {/* Heading and Description */}
                 <div className="flex flex-col items-start mt-5 text-white max-md:max-w-full">
@@ -86,7 +94,7 @@ const StatisticsSection = () => {
           </article>
 
           {/* Third Card */}
-          <article className="bg-[#f5f5f5] -top-[70px] relative shadow-lg rounded-3xl border border-blue-500 p-6 text-center w-[18rem] h-[16rem] flex flex-col justify-between max-md:w-full max-md:h-auto max-md:p-8">
+          <article className="bg-[#f5f5f5] relative shadow-lg rounded-3xl border border-blue-500 p-6 text-center w-[18rem] h-[16rem] flex flex-col justify-between max-md:w-full max-md:h-auto max-md:p-8">
             {/* Wallet Icon - Adjusted higher */}
             <div className="absolute -top-24 left-8 max-md:-top-16 max-md:left-1/2 max-md:-translate-x-1/2">
               <img

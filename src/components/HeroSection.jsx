@@ -48,7 +48,7 @@ const HeroSection = () => {
                 <img
                   src={victory}
                   alt=""
-                  className="absolute w-20 max-md:w-12 top-[2rem] left-[15rem] max-md:top-[5rem] max-md:left-[10rem]"
+                  className="absolute w-20 max-md:w-12 top-0 md:top-[2rem] left-[15rem]  max-md:left-[8rem]"
                 />
               </span>
             </h1>
