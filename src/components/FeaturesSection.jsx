@@ -45,11 +45,11 @@ const FeaturesSection = () => {
               {/* Grid of Features */}
               <div className="flex flex-col md:flex-row gap-8 mt-8 md:mt-16 w-full">
 
-                <div className=' flex flex-col gap-16'>
+                <div className=' flex flex-col gap-16 font-[Montserrat]'>
                   {/* Feature 1 */}
                   <div className="max-w-[600px] rounded-3xl relative min-h-56 border border-gray-200 p-6  bg-white h-fit">
                     <div className='flex flex-col gap-1 items-end justify-center w-[90%] ml-auto'>
-                    <h3 className="text-2xl font-semibold mb-4 text-right">
+                    <h3 className="text-2xl font-semibold mb-4 text-right font-[Montserrat]">
                       One-Click Cross-Chain Swaps
                     </h3>
                     <p className="text-[#535353] font-light">
@@ -69,7 +69,7 @@ const FeaturesSection = () => {
                       alt="Cross-Chain Swap"
                       className="mt-6 w-[28rem] rounded-3xl absolute top-[-7rem] right-0 "
                     />
-                    <h3 className="text-2xl font-semibold mb-4">
+                    <h3 className="text-2xl font-semibold mb-4 font-[Montserrat]">
                       DeFi-Powered Spending
                     </h3>
                     <p className="text-[#535353] font-light">
@@ -78,7 +78,7 @@ const FeaturesSection = () => {
 
                 </div>
 
-                <div className='flex flex-col gap-4 md:-top-28 relative '>
+                <div className='flex flex-col gap-4 md:-top-28 relative font-[Montserrat]'>
                   {/* Feature 2 */}
                   <article className="max-w-[600px] rounded-3xl border relative border-gray-200 p-6 md:pt-32 bg-white h-fit">
                     <img
@@ -86,7 +86,7 @@ const FeaturesSection = () => {
                       alt="Cross-Chain Swap"
                       className=" w-[20rem]  md:absolute md:-top-[60%] right-0 "
                     />
-                    <h3 className="text-2xl font-semibold mb-4">
+                    <h3 className="text-2xl font-semibold mb-4 font-[Montserrat]">
                       Fused Cross-Chain Balance
                     </h3>
                     <p className="text-[#535353] font-light">
@@ -99,7 +99,7 @@ const FeaturesSection = () => {
                   {/* Feature 4 */}
                   <article className="max-w-[600px] rounded-3xl border flex md:flex-row flex-col min-h-96 items-center gap-2 relative border-gray-200 p-6 bg-white h-fit">
                     <div className=' flex flex-col gap-2 md:w-[50%]'>
-<h3 className="text-3xl font-semibold mb-4">
+              <h3 className="text-3xl font-semibold mb-4 font-[Montserrat]">
                       Automated One-Click Yield
                     </h3>
                     <p className="text-[#535353] font-light ">
