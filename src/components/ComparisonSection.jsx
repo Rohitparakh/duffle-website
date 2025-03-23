@@ -38,8 +38,8 @@ export default function WhyUsSection() {
       <div className="">
   <div className=" border-[3px] border-white grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center rounded-2xl max-md:text-sm min-w-[800px] ">
     {/* Empty Column for Alignment */}
-    <div className="flex flex-col gap-20 items-center p-2 max-md:gap-10 max-md:p-2">
-      <h5 className="text-xs font-semibold uppercase mt-12 mb-8 "></h5>
+    <div className="max-h-[500px] flex flex-col gap-20 items-center p-2 max-md:gap-10 max-md:p-2">
+      <h5 className="text-xs font-semibold uppercase max-md:h-[136px] h-[80px]"></h5>
       <p className="relative z-20 text-xs font-semibold uppercase max-md:text-[10px]">
         YEILD
         <div className='absolute -bottom-[40px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
@@ -60,18 +60,18 @@ export default function WhyUsSection() {
     </div>
 
     {/* Duttle (Highlighted) */}
-    <div className="relative z-[999] flex flex-col gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] border-r h-[120%] pt-[7rem] -top-[10%]">
+    <div className=" relative z-[999] flex flex-col gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] border-r pt-[7rem] h-[120%] -top-[10%]">
       <img
         src={duffleLogo}
         alt="Duttle"
         className="w-[150px]"
       />
 
-      <div className="flex flex-col gap-16 mt-[15px]">
-        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">6%-15%</p>
-        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[15px]">Protected deposits</p>
-        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] -mt-[20px]">No fees</p>
-        <p className="text-xs md:font-bold uppercase max-md:text-[10px] -mt-[20px]">Instant</p>
+      <div className="flex flex-col gap-16 max-md:gap-[2.4rem] max-md:mt-[15px] mt-[15px]">
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[15px]">6%-15%</p>
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0   -mt-[15px]">Protected deposits</p>
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">No fees</p>
+        <p className="text-xs md:font-bold uppercase max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">Instant</p>
       </div>
       <img
         src={bigger_than_crypto}
@@ -81,7 +81,7 @@ export default function WhyUsSection() {
     </div>
 
     {/* Coinbase */}
-    <div className=" relative flex flex-col gap-20 items-center  p-4 max-md:gap-10 max-md:p-2">
+    <div className="max-h-[500px] relative flex flex-col gap-20 items-center  p-4 max-md:gap-10 max-md:p-2">
       <div>
         <img src={coinbase} className="h-16" />
         <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">COINBASE</h3>
@@ -95,7 +95,7 @@ export default function WhyUsSection() {
     </div>
 
     {/* Robinhood */}
-    <div className="flex flex-col gap-20 items-center  p-4 max-md:gap-10 max-md:p-2">
+    <div className="max-h-[500px] flex flex-col gap-20 items-center  p-4 max-md:gap-10 max-md:p-2">
       <div>
         <img src={robinhood} className="h-16" />
         <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">ROBINHOOD</h3>
@@ -107,8 +107,9 @@ export default function WhyUsSection() {
     </div>
 
     {/* Other DeFi */}
-    <div className="flex flex-col gap-20 items-center p-4 max-md:gap-10 max-md:p-2 mt-4">
-      <h3 className="text-xs font-semibold uppercase mt-12 max-md:mb-8">OTHER DEFI</h3>
+    <div className="max-h-[500px] flex flex-col gap-20 items-center p-4 max-md:gap-10 max-md:p-2 mt-4">
+    {/* <div className="h-16" /> */}
+      <h3 className="text-xs font-semibold uppercase mt-12 max-md:mt-[4.5rem] max-md:mb-8">OTHER DEFI</h3>
       <p className="text-xs font-semibold uppercase max-md:text-[10px]">6%-20%+</p>
       <p className="text-xs uppercase max-md:text-[10px]">No protection</p>
       <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
