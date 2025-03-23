@@ -3,6 +3,7 @@ import avatars from '../assets/avatars.png';
 import waves from '../assets/waves.png';
 import fintech_mobile from '../assets/fintech_mobile.png';
 import fintech_wallet from '../assets/fintech_wallet.png';
+import wave from '../assets/wave.png';
 import robot from '../assets/robot.png';
 
 const StatisticsSection = () => {
@@ -11,11 +12,11 @@ const StatisticsSection = () => {
       {/* Blue Box Container */}
       <div className="flex relative flex-col px-20 pt-11 mb-0 w-full bg-sky-500 rounded-[52px] max-md:px-5 max-md:mb-2.5 max-md:max-w-full">
         {/* Robot Image */}
-        <div className="absolute top-[-8rem] -right-[4rem] flex justify-center items-center max-md:top-[-6rem] max-md:-right-[2rem]">
+        <div className="absolute top-[-8rem] right-[-15rem] flex justify-center items-center max-md:top-[-6rem] max-md:-right-[2rem]">
           <img
-            src={robot}
+            src={wave}
             alt="Decorative"
-            className="object-contain max-w-full aspect-[2.74] w-[60rem] max-md:w-[30rem]"
+            className="object-contain max-w-full aspect-[2.74] w-[68rem] max-md:w-[30rem]"
           />
         </div>
 
