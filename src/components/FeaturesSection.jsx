@@ -27,7 +27,7 @@ const FeaturesSection = () => {
               <img
                 src={hand}
                 alt="Decorative"
-                className="object-contain absolute -left-[5vw] z-[999]  w-[30vw] md:w-[15vw] lg:w-[15vw] top-[25vh] transform -translate-y-1/2"
+                className="-translate-x-[40%] object-contain absolute -left-[5vw] z-[999]  w-[30vw] md:w-[15vw] lg:w-[15vw] top-[25vh] transform -translate-y-1/2"
               />
 
               {/* Heading */}
@@ -48,11 +48,11 @@ const FeaturesSection = () => {
                 <div className=' flex flex-col gap-16'>
                   {/* Feature 1 */}
                   <div className="max-w-[600px] rounded-3xl relative min-h-56 border border-gray-200 p-6  bg-white h-fit">
-                    <div className='flex flex-col gap-1 items-end justify-center w-[80%] ml-auto'>
+                    <div className='flex flex-col gap-1 items-end justify-center w-[90%] ml-auto'>
                     <h3 className="text-2xl font-semibold mb-4 text-right">
                       One-Click Cross-Chain Swaps
                     </h3>
-                    <p className="text-neutral-600">
+                    <p className="text-[#535353] font-light">
                       Swap any token across any chain in one click. <br /> No native gas or bridging, just press swap.
                     </p>
                     </div>
@@ -72,7 +72,7 @@ const FeaturesSection = () => {
                     <h3 className="text-2xl font-semibold mb-4">
                       DeFi-Powered Spending
                     </h3>
-                    <p className="text-neutral-600">
+                    <p className="text-[#535353] font-light">
                       Buying and spending crypto has never been easier. Instantly buy any token with Apply Pay or Google Pay, then spend them in the real world with a debit card. </p>
                   </article>
 
@@ -89,7 +89,7 @@ const FeaturesSection = () => {
                     <h3 className="text-2xl font-semibold mb-4">
                       Fused Cross-Chain Balance
                     </h3>
-                    <p className="text-neutral-600">
+                    <p className="text-[#535353] font-light">
                       Unified Balance Spend: Combine all your USDT, USDC, and ETH across chains into a single, spendable balance. Withdraw $300 spread across Optimism, Solana, and Base to any chain—even Avalanche—seamlessly, no bridging required.
                     </p>
                   </article>
@@ -102,7 +102,7 @@ const FeaturesSection = () => {
 <h3 className="text-3xl font-semibold mb-4">
                       Automated One-Click Yield
                     </h3>
-                    <p className="text-neutral-600 ">
+                    <p className="text-[#535353] font-light ">
                       Make one-click deposits into yield protocols like Aave, Compound, and Ethena, with fully automated backend chain management and a unified dashboard for tracking yield across protocols and chains.
                     </p>
                     </div>
