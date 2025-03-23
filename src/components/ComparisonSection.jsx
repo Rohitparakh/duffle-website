@@ -67,7 +67,7 @@ export default function WhyUsSection() {
         className="w-[150px]"
       />
 
-      <div className="flex flex-col gap-16 max-md:gap-[2.4rem] max-md:mt-[15px] mt-[15px]">
+      <div className="flex flex-col gap-16 max-md:gap-[2.4rem] max-md:mt-[12.5px] mt-[15px]">
         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[15px]">6%-15%</p>
         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0   -mt-[15px]">Protected deposits</p>
         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">No fees</p>
@@ -88,7 +88,7 @@ export default function WhyUsSection() {
       <div className='absolute top-[120px] left-[-50vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
 
       </div>
-      <p className="text-xs font-semibold uppercase max-md:text-[10px] border-b border-gray-300">4%</p>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
       <p className="text-xs uppercase max-md:text-[10px]">FDIC (BANK ONLY)</p>
       <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
       <p className="text-xs uppercase max-md:text-[10px]">2-3 Days</p>
