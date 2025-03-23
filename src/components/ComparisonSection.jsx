@@ -42,19 +42,19 @@ export default function WhyUsSection() {
       <h5 className="text-xs font-semibold uppercase mt-12 mb-8 "></h5>
       <p className="relative z-20 text-xs font-semibold uppercase max-md:text-[10px]">
         YEILD
-        <div className='absolute -bottom-[40px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300'></div>
+        <div className='absolute -bottom-[40px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
         </p>
       
       <p className="relative text-xs uppercase max-md:text-[10px]">SECURITY
-      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300'></div>
+      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
 
       </p>
       <p className="relative text-xs uppercase max-md:text-[10px]">FEES
-      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300'></div>
+      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
 
       </p>
       <p className="relative text-xs uppercase max-md:text-[10px]">WITHDRAWALS
-      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300'></div>
+      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
       
       </p>
     </div>
@@ -85,7 +85,7 @@ export default function WhyUsSection() {
       <div>
         <img src={coinbase} className="h-16" />
         <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">COINBASE</h3>
-      <div className='absolute top-[120px] left-[-50vw] h-[1px] w-[100vw] bg-gray-300'></div>
+      <div className='absolute top-[120px] left-[-50vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
 
       </div>
       <p className="text-xs font-semibold uppercase max-md:text-[10px] border-b border-gray-300">4%</p>
