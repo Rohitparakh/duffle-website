@@ -11,18 +11,18 @@ import star from "../assets/star.png";
 const LaughingRobo = () => {
   return (
     <div
-      className="relative w-full min-h-screen pb-20 mt-64 flex justify-center items-center bg-no-repeat bg-center bg-cover rounded-t-3xl"
+      className="relative w-full min-h-screen pb-40 mt-64 flex justify-center items-center bg-no-repeat bg-center bg-cover rounded-t-3xl z-10"
       style={{ backgroundColor: "#ffd972" }}
     >
       {/* Background Vector */}
       <img
         src={Vector}
         alt=""
-        className="absolute md:block block w-[40vw] max-md:w-[100vw] max-md:top-10 max-md:left-1/2 max-md:-translate-x-1/2"
+        className="absolute top-0 md:block block w-[100vw] object-cover max-h-[100vh] max-md:w-[100vw] max-md:top-10 max-md:left-1/2 max-md:-translate-x-1/2"
       />
 
       {/* iPhone Image */}
-      <div className="absolute md:w-[50rem] md:-top-1/4 top-0">
+      <div className="absolute md:w-[70rem] md:-top-1/4 top-0">
       <div className="relative">
       <img
         src={iphone_15}
