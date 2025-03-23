@@ -13,7 +13,7 @@ const Footer = () => {
                     <img
                         src={footerRobo}
                         alt="duffle"
-                        className="h-auto  max-h-[200px] lg:max-h-[400px] max-w-[380px] md:max-w-[400px] absolute left-[33%] lg:left-[20%] top-[-20%] "
+                        className="h-auto  max-h-[200px] lg:max-h-[300px] max-w-[380px] md:max-w-[300px] absolute left-[33%] lg:left-[20%] top-[-20%] "
                     />
                 </div>
 
