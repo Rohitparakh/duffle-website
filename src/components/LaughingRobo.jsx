@@ -11,7 +11,7 @@ import star from "../assets/star.png";
 const LaughingRobo = () => {
   return (
     <div
-      className="relative w-full min-h-screen pb-40 mt-64 flex justify-center items-center bg-no-repeat bg-center bg-cover rounded-t-3xl z-10"
+      className="relative w-full min-h-screen pb-40 mt-0 mb:mt-64 flex justify-center items-center bg-no-repeat bg-center bg-cover rounded-t-3xl z-10"
       style={{ backgroundColor: "#ffd972" }}
     >
       {/* Background Vector */}

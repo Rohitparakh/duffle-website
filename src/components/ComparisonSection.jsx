@@ -6,7 +6,7 @@ import robinhood from '../assets/robinhood.png';
 
 export default function WhyUsSection() {
   return (
-    <section id="positioning" className="flex flex-col px-40 pt-48 mb-96 w-full bg-neutral-100 max-md:px-5 max-md:pt-24">
+    <section id="positioning" className="flex flex-col px-40 pt-48 mb-20 md:mb-96 w-full bg-neutral-100 max-md:px-5 max-md:pt-24">
       {/* Section Header */}
       <div className='flex justify-between w-full items-center  text-xs'>
         <div className="flex gap-2.5 justify-center items-center  py-1 mb-4 font-semibold tracking-wider leading-8 text-center text-orange-500 uppercase whitespace-nowrap rounded-[99px] ">
@@ -34,7 +34,7 @@ export default function WhyUsSection() {
       </p>
 
       {/* Comparison Table */}
-      <div className='overflow-x-hidden overflow-y-visible h-[1000px] pt-36 max-md:overflow-x-auto max-md:overflow-y-visible' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
+      <div className='overflow-x-hidden overflow-y-visible h-[650px] md:h-[1000px] pt-36 max-md:overflow-x-auto max-md:overflow-y-visible' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
       <div className="">
   <div className=" border-[3px] border-white grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center rounded-2xl max-md:text-sm min-w-[800px] ">
     {/* Empty Column for Alignment */}
@@ -60,7 +60,7 @@ export default function WhyUsSection() {
     </div>
 
     {/* Duttle (Highlighted) */}
-    <div className=" relative z-[999] flex flex-col gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] border-r pt-[7rem] h-[120%] -top-[10%]">
+    <div className=" relative z-[999] flex flex-col max-md:gap-[2.5rem] gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] border-r pt-[7rem] max-md:h-[120%] max-md:-top-[10%] -top-[12%] h-[130%]">
       <img
         src={duffleLogo}
         alt="Duttle"
@@ -76,7 +76,7 @@ export default function WhyUsSection() {
       <img
         src={bigger_than_crypto}
         alt="Duffle"
-        className="w-[20rem] relative bottom-8 max-md:w-[10rem] max-md:bottom-4 mt-16"
+        className="w-[20rem] absolute bottom-8 max-md:w-[10rem] max-md:bottom-4 mt-16"
       />
     </div>
 
