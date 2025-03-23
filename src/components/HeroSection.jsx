@@ -32,7 +32,7 @@ const HeroSection = () => {
         <img
           src={hero2}
           alt=""
-          className="absolute md:-bottom-52 -bottom-32 md:right-0 -right-4  md:w-72 w-32 md:block "
+          className="absolute md:-bottom-52 -bottom-32 md:right-0 -right-4  md:w-72 w-32 md:block z-10"
         />
 
         {/* Main Content */}
