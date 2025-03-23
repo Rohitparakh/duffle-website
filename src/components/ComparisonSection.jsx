@@ -34,7 +34,7 @@ export default function WhyUsSection() {
       </p>
 
       {/* Comparison Table */}
-      <div className='relative flex overflow-x-hidden overflow-y-visible h-[650px] md:h-[1000px] pt-36 max-md:overflow-x-scroll max-md:overflow-y-visible' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
+      <div className='overflow-x-hidden overflow-y-visible h-[650px] md:h-[1000px] pt-36 max-md:overflow-x-scroll max-md:overflow-y-visible' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
       <div className="">
   <div className="max-md:relative max-md:flex max-md:overflow-x-hidden max-md:overflow-y-visible border-[3px] border-white grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center rounded-2xl max-md:text-sm min-w-[800px] max-md:min-w-[700px] ">
     {/* Empty Column for Alignment */}
