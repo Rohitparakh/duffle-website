@@ -18,7 +18,7 @@ const LaughingRobo = () => {
       <img
         src={Vector}
         alt=""
-        className="absolute md:block hidden w-[40vw] max-md:w-[30vw] max-md:top-0 max-md:left-1/2 max-md:-translate-x-1/2"
+        className="absolute md:block block w-[40vw] max-md:w-[100vw] max-md:top-10 max-md:left-1/2 max-md:-translate-x-1/2"
       />
 
       {/* iPhone Image */}
