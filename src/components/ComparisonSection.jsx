@@ -38,7 +38,7 @@ export default function WhyUsSection() {
       <div className=" ">
   <div className="grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center border border-gray-300 rounded-lg max-md:text-sm min-w-[800px] ">
     {/* Empty Column for Alignment */}
-    <div className="flex flex-col gap-20 items-center border-r border-gray-300 p-2 max-md:gap-10 max-md:p-2">
+    <div className="flex flex-col gap-20 items-center p-2 max-md:gap-10 max-md:p-2">
       <h5 className="text-xs font-semibold uppercase mt-12 mb-8 "></h5>
       <p className="text-xs font-semibold uppercase max-md:text-[10px]">YEILD</p>
       <p className="text-xs uppercase max-md:text-[10px]">SECURITY</p>
