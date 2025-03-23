@@ -33,7 +33,7 @@ const Rocket = () => {
           </div>
 
           {/* Second Box */}
-          <article className="relative max-w-[90vw] -left-[7%] bg-[#f5f5f5] lg:left-0 flex flex-col justify-center p-6 mt-6 rounded-3xl border-2 border-orange-500 w-[391px] max-md:px-5 after:content-[''] after:absolute after:right-[-10px] after:bottom-[-10px] after:w-full after:h-full after:border-r-2 after:border-b-2 after:border-orange-500 after:rounded-3xl after:-z-20">
+          <article className=" shadow-[8px_7px_0_rgba(249,115,22,1)] relative max-w-[90vw] -left-[7%] bg-[#f5f5f5] lg:left-0 flex flex-col justify-center p-6 mt-6 rounded-3xl border-2 border-orange-500 w-[391px] max-md:px-5 after:content-[''] after:absolute after:right-[-10px] after:bottom-[-10px] after:w-full after:h-full after:border-r-2 after:border-b-2 after:border-orange-500 after:rounded-3xl after:-z-20">
           <h3 className="text-xl font-semibold tracking-normal">
               Freedom to Move, Freedom to Choose
             </h3>
