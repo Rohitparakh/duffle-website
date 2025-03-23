@@ -75,32 +75,33 @@ export default function BackedBy() {
                                 src={isActive ? twitterCard : twitterCardBlur}
                                 alt={`Twitter Card ${index + 1}`}
                                 className={`absolute transition-all duration-500 rounded-2xl w-[380px] h-[500px]
-                  ${isActive ? "z-20 scale-100 opacity-100" : "z-10 scale-95 opacity-75"}
-                  ${position === -2 ? "-translate-x-32 opacity-50" : ""}
-                  ${position === -1 ? "-translate-x-16 opacity-75" : ""}
-                  ${position === 1 ? "translate-x-16 opacity-75" : ""}
-                  ${position === 2 ? "translate-x-32 opacity-50" : ""}
+                  ${isActive ? "z-20 scale-100 opacity-100" : " opacity-75"}
+                  ${position === -2 ? "-translate-x-64 opacity-50 z-10 scale-[.8]" : ""}
+                  ${position === -1 ? "-translate-x-32 opacity-75 z-10 scale-95" : ""}
+                  ${position === 1 ? "translate-x-32 opacity-75 z-[12] scale-[.8]" : ""}
+                  ${position === 2 ? "translate-x-64 opacity-50 z-10 scale-95" : ""}
                 `}
                             />
                         );
                     })}
-                </div>
-
-                {/* Navigation Buttons */}
+                     {/* Navigation Buttons */}
                 <button
                     onClick={prevSlide}
-                    className="absolute left-5 text-2xl text-black p-2 rounded-full"
+                    className="absolute -translate-x-[28rem] text-2xl text-black p-2 rounded-full"
                 >
                     {/* <FaArrowLeft /> */}
                     <img src={leftArrow} className="max-h-12" />
                 </button>
                 <button
                     onClick={nextSlide}
-                    className="absolute right-5 text-2xl text-black p-2 rounded-full"
+                    className="absolute translate-x-[29rem] text-2xl text-black p-2 rounded-full"
                 >
                     {/* <FaArrowRight /> */}
                     <img src={rightArrow} className="max-h-12" />
                 </button>
+                </div>
+
+               
             </div>
 
             {/* 🌟 Star at Bottom-Left of the Component */}
