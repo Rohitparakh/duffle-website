@@ -8,6 +8,7 @@ import { ArrowRight } from 'lucide-react';
 
 const NFTSection = () => {
   return (
+    <div className='bg-[#ffd972]'>
     <section id="nfts" className="z-20 relative rounded-t-[100px] flex flex-col px-2 items-center pb-28 max-md;mt-24 w-full rounded-t-3xl z-50 bg-neutral-100 max-md:pb-24 max-md:max-w-full">
       {/* Heading Section */}
       <div className="w-full max-w-[1164px] px-6 max-md:max-w-full">
@@ -106,6 +107,7 @@ const NFTSection = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
