@@ -1,11 +1,13 @@
 import React from 'react';
 import us from '../assets/us.png';
 import book from '../assets/book.png';
+import book2 from '../assets/book2.png';
 import bookTop from '../assets/bookTop.png';
 import hand from '../assets/hand.png';
-import globe from '../assets/globe.png';
+import globe from '../assets/coin.png';
 import books from '../assets/books.png';
 import elipse from '../assets/elipse.png';
+import yields from '../assets/yield.png';
 
 const FeaturesSection = () => {
   return (
@@ -25,7 +27,7 @@ const FeaturesSection = () => {
               <img
                 src={hand}
                 alt="Decorative"
-                className="object-contain absolute -left-[5vw]   w-[30vw] md:w-[15vw] lg:w-[15vw] top-[25vh] transform -translate-y-1/2"
+                className="object-contain absolute -left-[5vw] z-[999]  w-[30vw] md:w-[15vw] lg:w-[15vw] top-[25vh] transform -translate-y-1/2"
               />
 
               {/* Heading */}
@@ -43,27 +45,29 @@ const FeaturesSection = () => {
               {/* Grid of Features */}
               <div className="flex flex-col md:flex-row gap-8 mt-8 md:mt-16 w-full">
 
-                <div className=' flex flex-col gap-4'>
+                <div className=' flex flex-col gap-16'>
                   {/* Feature 1 */}
-                  <article className="rounded-3xl border border-gray-200 p-6 pl-24 md:pl-0 bg-white h-fit">
-                    <h3 className="text-2xl font-semibold mb-4">
+                  <div className="rounded-3xl relative min-h-56 border border-gray-200 p-6  bg-white h-fit">
+                    <div className='flex flex-col gap-1 items-end justify-center w-[80%] ml-auto'>
+                    <h3 className="text-2xl font-semibold mb-4 text-right">
                       One-Click Cross-Chain Swaps
                     </h3>
                     <p className="text-neutral-600">
-                      Swap any token across any chain in one click. No native gas or bridging, just press swap.
+                      Swap any token across any chain in one click. <br /> No native gas or bridging, just press swap.
                     </p>
+                    </div>
                     <img
                       src={bookTop}
                       alt="Cross-Chain Swap"
-                      className="mt-6 w-full"
+                      className=" absolute bottom-[-3rem] w-[30rem] bg-white rounded-2xl"
                     />
-                  </article>
+                  </div>
                   {/* Feature 3 */}
-                  <article className="rounded-3xl border border-gray-200 p-6 bg-white h-fit">
+                  <article className="rounded-3xl flex flex-col justify-end border min-h-96 relative border-gray-200 p-6 bg-white h-fit">
                     <img
-                      src={books}
+                      src={book2}
                       alt="Cross-Chain Swap"
-                      className="mt-6 w-full rounded-3xl"
+                      className="mt-6 w-[28rem] rounded-3xl absolute top-[-7rem] right-0 "
                     />
                     <h3 className="text-2xl font-semibold mb-4">
                       DeFi-Powered Spending
@@ -76,11 +80,11 @@ const FeaturesSection = () => {
 
                 <div className='flex flex-col gap-4 '>
                   {/* Feature 2 */}
-                  <article className="rounded-3xl border relative border-gray-200 p-6 pt-32 bg-white h-fit">
+                  <article className="rounded-3xl border relative border-gray-200 p-6 md:pt-32 bg-white h-fit">
                     <img
                       src={globe}
                       alt="Cross-Chain Swap"
-                      className=" w-full md:w-[20vw] rounded-3xl md:absolute md:bottom-48 md:right-1/3"
+                      className=" w-[20rem]  md:absolute md:-top-[60%] right-0 "
                     />
                     <h3 className="text-2xl font-semibold mb-4">
                       Fused Cross-Chain Balance
@@ -93,16 +97,19 @@ const FeaturesSection = () => {
 
 
                   {/* Feature 4 */}
-                  <article className="rounded-3xl border border-gray-200 p-6 bg-white h-fit">
-                    <h3 className="text-2xl font-semibold mb-4">
+                  <article className="rounded-3xl border flex md:flex-row flex-col min-h-96 items-center gap-2 relative border-gray-200 p-6 bg-white h-fit">
+                    <div className=' flex flex-col gap-2 md:w-[50%]'>
+<h3 className="text-3xl font-semibold mb-4">
                       Automated One-Click Yield
                     </h3>
-                    <p className="text-neutral-600">
+                    <p className="text-neutral-600 ">
                       Make one-click deposits into yield protocols like Aave, Compound, and Ethena, with fully automated backend chain management and a unified dashboard for tracking yield across protocols and chains.
                     </p>
+                    </div>
+                    
                     <img
-                      src={elipse} alt="Yield Dashboard"
-                      className="mt-6 w-full"
+                      src={yields} alt="Yield Dashboard"
+                      className=" w-[15rem] rounded-3xl md:absolute top-[-5rem] right-16 "
                     />
                   </article>
                 </div>

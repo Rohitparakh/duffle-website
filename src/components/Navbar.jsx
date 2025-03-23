@@ -1,14 +1,15 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import duffleLogo from '../assets/duffleLogo.png';
+import heroHand from '../assets/heroHand.png';
 
 const NAV_ITEMS = [
-  { name: "Lifestyle", url: "#lifestyle" },
   { name: "Features", url: "#features" },
   { name: "Statistics", url: "#statistics" },
-  { name: "Don't miss out", url: "#dontMissOut" },
   { name: "Positioning", url: "#positioning" },
-  { name: "NFTs", url: "#nfts" }
+  { name: "NFTs", url: "#nfts" },
+  { name: "Lifestyle", url: "#lifestyle" },
+  { name: "Don't miss out", url: "#dontMissOut" },
 ];
 
 const Navbar = () => {
@@ -16,12 +17,17 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-100 py-4 px-6">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center relative">
+
+        <img src={heroHand} className="absolute z-[999] hidden md:block top-[-1rem] left-44 w-52" alt="" />
         {/* Logo */}
         <img src={duffleLogo} alt="Duffle Logo" className="h-12" />
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-gray-600">
+        <ul className="hidden md:flex space-x-10 text-gray-600 border border-gray-900 px-5 py-2 rounded-3xl">
+        <li  >
+              <a  className="cursor-pointer text-orange-600 hover:text-black transition">About Us</a>
+            </li>
           {NAV_ITEMS.map(({ name, url }) => (
             <li key={name} >
               <a href={url} className="cursor-pointer hover:text-black transition">{name}</a>
@@ -30,7 +36,7 @@ const Navbar = () => {
         </ul>
 
         {/* Launch App Button */}
-        <button className="hidden md:block bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition">
+        <button className="hidden md:block border border-gray-900 rounded-3xl text-black px-6 py-2 shadow shadow-orange-200 transition-all duration-300 active:scale-95">
           Launch App
         </button>
 

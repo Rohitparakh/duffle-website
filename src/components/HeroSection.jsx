@@ -1,18 +1,15 @@
 import React from 'react';
-import mobile from '../assets/phoneUI.png';
-import culture from '../assets/culture.png';
-import earth from '../assets/earth.png';
-import dollar from '../assets/Orange_stickers.png';
-import star from '../assets/Blue_stickers.png';
-import layer1 from '../assets/Layer_1.png';
-import victory from '../assets/victory.png';
+
+import hero from '../assets/hero.png';
+import hero1 from '../assets/hero1.png';
+import hero2 from '../assets/hero2.png';
 
 const HeroSection = () => {
   return (
     <section className="flex flex-col items-center py-16 pb-40 w-screen bg-neutral-100 relative max-md:px-5 max-md:pb-24 max-md:max-w-full">
-      <div className="relative w-full mx-auto">
+      <div className="relative w-full mx-auto max-w-6xl">
         {/* Background Decorative Elements */}
-        <img
+        {/* <img
           src={layer1}
           alt=""
           className="absolute top-[-20px] left-0 w-80 max-md:w-24 z-0"
@@ -26,41 +23,38 @@ const HeroSection = () => {
           src={culture}
           alt=""
           className="absolute bottom-10 left-10 w-64 max-md:w-20 max-md:bottom-5 max-md:left-5 z-0"
-        />
-        {/* <img
-          src={dollar}
+        /> */}
+        <img
+          src={hero1}
           alt=""
-          className="absolute bottom-80 left-80 w-48 max-md:w-20 max-md:bottom-40 max-md:left-20 z-10 opacity-80"
+          className="absolute md:-bottom-36 -bottom-32 left-0 md:w-72 w-28 md:block "
         />
         <img
-          src={star}
+          src={hero2}
           alt=""
-          className="absolute top-[20rem] right-[20rem] w-32 max-md:w-18 max-md:top-[10rem] max-md:right-[5rem] z-10 opacity-80"
-        /> */}
+          className="absolute md:-bottom-52 -bottom-32 md:right-0 -right-4  md:w-72 w-32 md:block "
+        />
 
         {/* Main Content */}
         <div className="flex flex-col items-center text-center relative z-40">
-          <div className="relative">
-            <h1 className="text-8xl max-w-[40rem] font-bold text-gray-900 leading-tight relative z-40 max-md:text-5xl max-md:max-w-[20rem]">
-              Crypto’s{' '}
-              <span className="text-black relative">
-                Money App
-                <img
-                  src={victory}
-                  alt=""
-                  className="absolute w-20 max-md:w-12 top-0 md:top-[2rem] left-[15rem]  max-md:left-[8rem]"
-                />
-              </span>
-            </h1>
-          </div>
+          
 
-          <div className="relative mt-6 max-md:mt-4">
+          <div className="relative mt-32 max-md:mt-4">
             <img
-              src={mobile}
+              src={hero}
               alt="Phone UI"
-              className="object-contain self-center max-w-full aspect-[0.55] w-[457px] rounded-3xl z-40 relative max-md:w-[300px]"
+              className="object-contain self-center  rounded-3xl z-40 relative max-md:w-[300px]"
             />
           </div>
+          <p className='text-base font-normal text-gray-800 leading-[64px] max-md:leading-[48px]'>Change the way you use crypto.</p>
+          <div className=" bg-white rounded-3xl p-[2px] border border-black -bottom-4 left-1/2 ">
+        <div className="relative">
+          <button className="bg-black md:text-lg text-sm text-white px-10 py-2 rounded-3xl  shadow-lg border-2 border-orange-500">
+            Launch App
+          </button>
+        </div>
+          </div>
+
         </div>
       </div>
     </section>
