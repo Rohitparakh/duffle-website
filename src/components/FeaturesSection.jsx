@@ -78,7 +78,7 @@ const FeaturesSection = () => {
 
                 </div>
 
-                <div className='flex flex-col gap-4 -top-28 relative '>
+                <div className='flex flex-col gap-4 min-md:-top-28 relative '>
                   {/* Feature 2 */}
                   <article className="max-w-[600px] rounded-3xl border relative border-gray-200 p-6 md:pt-32 bg-white h-fit">
                     <img
