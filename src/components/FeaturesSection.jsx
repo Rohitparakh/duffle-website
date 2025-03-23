@@ -59,7 +59,7 @@ const FeaturesSection = () => {
                     <img
                       src={bookTop}
                       alt="Cross-Chain Swap"
-                      className=" absolute bottom-[-3rem] w-[30rem] bg-white rounded-2xl"
+                      className=" absolute bottom-[-3rem] w-[30rem] bg-white "
                     />
                   </div>
                   {/* Feature 3 */}
