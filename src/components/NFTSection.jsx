@@ -23,7 +23,7 @@ const NFTSection = () => {
 
         <div className="max-w-[40%] max-md:max-w-full">
           <h2 className="mt-6 text-5xl font-bold tracking-tighter leading-none text-gray-900 max-md:text-4xl">
-            We have <img src={nft} alt="NFT" className="inline-block h-12 max-md:w-8 max-md:h-8" /> as well
+            We have <img src={nft} alt="NFT" className="inline-block h-12 max-md:h-8" /> as well
           </h2>
           <p className="mt-4 text-base text-neutral-700 max-md:text-sm">
             Backed by industry-leading angel investors and one of the most sought-after products to gain early access to.

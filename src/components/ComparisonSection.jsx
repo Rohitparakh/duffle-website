@@ -6,7 +6,7 @@ import robinhood from '../assets/robinhood.png';
 
 export default function WhyUsSection() {
   return (
-    <section id="positioning" className="flex flex-col px-40 pt-48 w-full bg-neutral-100 max-md:px-5 max-md:pt-24">
+    <section id="positioning" className="flex flex-col px-40 pt-48 mb-96 w-full bg-neutral-100 max-md:px-5 max-md:pt-24">
       {/* Section Header */}
       <div className='flex justify-between w-full items-center  text-xs'>
         <div className="flex gap-2.5 justify-center items-center  py-1 mb-4 font-semibold tracking-wider leading-8 text-center text-orange-500 uppercase whitespace-nowrap rounded-[99px] ">
@@ -34,7 +34,7 @@ export default function WhyUsSection() {
       </p>
 
       {/* Comparison Table */}
-      <div className='h-[1000px] pt-36 overflow-x-auto overflow-y-hidden' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
+      <div className='h-[1000px] pt-36 max-md:overflow-x-auto max-md:overflow-y-visible' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
       <div className=" ">
   <div className="grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center border border-gray-300 rounded-lg max-md:text-sm min-w-[800px] ">
     {/* Empty Column for Alignment */}

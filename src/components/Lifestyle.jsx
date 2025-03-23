@@ -3,7 +3,7 @@ import line from "../assets/lifestyleLine.png";
 
 const Lifestyle = () => {
   return (
-    <div id="lifestyle" className="px-16 w-full relative bg-neutral-100 max-md:px-5">
+    <div id="lifestyle" className="max-md:mt-24 px-16 w-full relative bg-neutral-100 max-md:px-5">
       {/* Lifestyle Tag */}
       <div className="flex flex-wrap justify-between mt-10 w-full text-xs font-semibold tracking-wider leading-8 uppercase max-md:max-w-full">
         <div className="flex gap-2.5 justify-center items-center py-1 text-center text-orange-500 whitespace-nowrap rounded-[99px] max-md:px-5">
