@@ -47,7 +47,7 @@ const FeaturesSection = () => {
 
                 <div className=' flex flex-col gap-16'>
                   {/* Feature 1 */}
-                  <div className="rounded-3xl relative min-h-56 border border-gray-200 p-6  bg-white h-fit">
+                  <div className="max-w-[600px] rounded-3xl relative min-h-56 border border-gray-200 p-6  bg-white h-fit">
                     <div className='flex flex-col gap-1 items-end justify-center w-[80%] ml-auto'>
                     <h3 className="text-2xl font-semibold mb-4 text-right">
                       One-Click Cross-Chain Swaps
@@ -63,7 +63,7 @@ const FeaturesSection = () => {
                     />
                   </div>
                   {/* Feature 3 */}
-                  <article className="rounded-3xl flex flex-col justify-end border min-h-96 relative border-gray-200 p-6 bg-white h-fit">
+                  <article className="max-w-[600px] rounded-3xl flex flex-col justify-end border min-h-96 relative border-gray-200 p-6 bg-white h-fit">
                     <img
                       src={book2}
                       alt="Cross-Chain Swap"
@@ -78,9 +78,9 @@ const FeaturesSection = () => {
 
                 </div>
 
-                <div className='flex flex-col gap-4 '>
+                <div className='flex flex-col gap-4 -top-28 relative '>
                   {/* Feature 2 */}
-                  <article className="rounded-3xl border relative border-gray-200 p-6 md:pt-32 bg-white h-fit">
+                  <article className="max-w-[600px] rounded-3xl border relative border-gray-200 p-6 md:pt-32 bg-white h-fit">
                     <img
                       src={globe}
                       alt="Cross-Chain Swap"
@@ -97,7 +97,7 @@ const FeaturesSection = () => {
 
 
                   {/* Feature 4 */}
-                  <article className="rounded-3xl border flex md:flex-row flex-col min-h-96 items-center gap-2 relative border-gray-200 p-6 bg-white h-fit">
+                  <article className="max-w-[600px] rounded-3xl border flex md:flex-row flex-col min-h-96 items-center gap-2 relative border-gray-200 p-6 bg-white h-fit">
                     <div className=' flex flex-col gap-2 md:w-[50%]'>
 <h3 className="text-3xl font-semibold mb-4">
                       Automated One-Click Yield
