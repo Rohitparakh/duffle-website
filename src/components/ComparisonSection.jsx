@@ -34,40 +34,40 @@ export default function WhyUsSection() {
       </p>
 
       {/* Comparison Table */}
-      <div className='overflow-x-hidden overflow-y-visible h-[650px] md:h-[1000px] pt-36 max-md:overflow-x-auto max-md:overflow-y-visible' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
+      <div className='relative flex overflow-x-hidden overflow-y-visible h-[650px] md:h-[1000px] pt-36 max-md:overflow-x-scroll max-md:overflow-y-visible' style={{ scrollBehavior: 'smooth', scrollbarWidth: "none", msOverflowStyle: "none", WebkitOverflowScrolling: "touch" }}>
       <div className="">
-  <div className=" border-[3px] border-white grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center rounded-2xl max-md:text-sm min-w-[800px] ">
+  <div className="max-md:relative max-md:flex max-md:overflow-x-hidden max-md:overflow-y-visible border-[3px] border-white grid grid-flow-col auto-cols-fr gap-6 md:gap-3 text-center rounded-2xl max-md:text-sm min-w-[800px] max-md:min-w-[700px] ">
     {/* Empty Column for Alignment */}
     <div className="max-h-[500px] flex flex-col gap-20 items-center p-2 max-md:gap-10 max-md:p-2">
       <h5 className="text-xs font-semibold uppercase max-md:h-[136px] h-[80px]"></h5>
       <p className="relative z-20 text-xs font-semibold uppercase max-md:text-[10px]">
         YEILD
-        <div className='absolute -bottom-[40px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
+        <div className='absolute -bottom-[40px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
         </p>
       
       <p className="relative text-xs uppercase max-md:text-[10px]">SECURITY
-      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
+      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
 
       </p>
       <p className="relative text-xs uppercase max-md:text-[10px]">FEES
-      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
+      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
 
       </p>
       <p className="relative text-xs uppercase max-md:text-[10px]">WITHDRAWALS
-      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
+      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
       
       </p>
     </div>
 
     {/* Duttle (Highlighted) */}
-    <div className=" relative z-[999] flex flex-col max-md:gap-[2.5rem] gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] border-r pt-[7rem] max-md:h-[120%] max-md:-top-[10%] -top-[12%] h-[130%]">
+    <div className=" relative z-[999] flex flex-col max-md:gap-[2.5rem] gap-16 items-center bg-amber-500 rounded-2xl border-gray-900 border-[3px] shadow-[4px_4px_0px_rgba(0,0,0,1)] border-r pt-[7rem] max-md:pt-[3rem] max-md:gap-[3.5rem] max-md:h-[120%] max-md:-top-[10%] -top-[12%] h-[130%]">
       <img
         src={duffleLogo}
         alt="Duttle"
         className="w-[150px]"
       />
 
-      <div className="flex flex-col gap-16 max-md:gap-[2.4rem] max-md:mt-[12.5px] mt-[15px]">
+      <div className="flex flex-col gap-16 max-md:gap-[2.6rem] max-md:mt-[12.5px] mt-[15px]">
         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[15px]">6%-15%</p>
         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0   -mt-[15px]">Protected deposits</p>
         <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">No fees</p>
@@ -76,7 +76,7 @@ export default function WhyUsSection() {
       <img
         src={bigger_than_crypto}
         alt="Duffle"
-        className="w-[20rem] absolute bottom-8 max-md:w-[10rem] max-md:bottom-4 mt-16"
+        className="w-[20rem] relative md:absolute bottom-8 max-md:w-[10rem] max-md:bottom-4 mt-16"
       />
     </div>
 
@@ -85,7 +85,7 @@ export default function WhyUsSection() {
       <div>
         <img src={coinbase} className="h-16" />
         <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">COINBASE</h3>
-      <div className='absolute top-[120px] left-[-50vw] h-[1px] w-[100vw] bg-gray-300 max-md:hidden'></div>
+      <div className='absolute top-[120px] left-[-50vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-left-[100vw]'></div>
 
       </div>
       <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
