@@ -11,18 +11,18 @@ import star from "../assets/star.png";
 const LaughingRobo = () => {
   return (
     <div
-      className="relative w-full min-h-screen pb-40 mt-0 mb:mt-64 flex justify-center items-center bg-no-repeat bg-center bg-cover rounded-t-3xl z-10"
+      className="relative w-full min-h-screen mt-0 mb:mt-64 flex flex-col justify-center items-center bg-no-repeat bg-center bg-cover rounded-t-3xl z-10"
       style={{ backgroundColor: "#ffd972" }}
     >
       {/* Background Vector */}
       <img
         src={Vector}
         alt=""
-        className="absolute top-0 md:block block w-[100vw] object-cover max-h-[100vh] max-md:w-[100vw] max-md:top-10 max-md:left-1/2 max-md:-translate-x-1/2"
+        className="absolute top-0 md:block block w-[100vw] object-cover  max-md:w-[100vw] max-md:top-10 max-md:left-1/2 max-md:-translate-x-1/2"
       />
 
       {/* iPhone Image */}
-      <div className="absolute md:w-[70rem] md:-top-1/4 top-0">
+      <div className="relative md:w-[70rem] md:-top-[200px] top-0">
       <div className="relative">
       <img
         src={iphone_15}
@@ -51,13 +51,7 @@ const LaughingRobo = () => {
         className="absolute md:w-[10vw] md:bottom-[95vh] md:right-[28vw] w-[5vw]"
       /> */}
 
-      {/* Robo Image */}
-      <img
-        src={robo2}
-        alt=""
-        className="absolute w-[60vw] md:w-[25vw] bottom-[25vh] right-0 md:bottom-[1vh] md:right-[10vw]"
-      />
-
+     
 
 
       {/* Left Text Content */}
@@ -66,8 +60,9 @@ const LaughingRobo = () => {
        
       </div>
 
+      <div className="relative flex justify-around items-end w-full md:-top-[100px] max-md:flex-col-reverse max-md:items-center max-md:gap-20">
       {/* Bottom Left Section */}
-      <div className="absolute bottom-[10vh] left-[5vw] max-md:bottom-[5vh] max-md:left-[5vw] max-md:max-w-[80%]">
+      <div className="relative max-md:max-w-[80%] bottom-[40px]">
       <h2 className="text-xs font-medium md:mt-2 leading-snug max-md:text-md w-72">
         Crypto should move as fast as you do. You’re not just using digital assets—you’re integrating them seamlessly into your life.
         </h2>
@@ -79,6 +74,14 @@ const LaughingRobo = () => {
             className="object-contain mt-3.5 max-w-full aspect-[4.27] w-[40vw] md:w-[20vw]"
           />
         </h1>
+      </div>
+
+       {/* Robo Image */}
+       <img
+        src={robo2}
+        alt=""
+        className="relative w-[60vw] md:w-[25vw] "
+      />
       </div>
 
       {/* Right Side Icons */}
