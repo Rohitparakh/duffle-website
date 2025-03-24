@@ -27,7 +27,7 @@ const LaughingRobo = () => {
 
       {/* iPhone Image */}
       <div className="relative md:w-[70rem] md:-top-[200px] top-0 ">
-      <div className="relative">
+      <div className="relative ">
       <img
         src={iphone_15}
         alt=""
@@ -77,7 +77,7 @@ const LaughingRobo = () => {
        
       </div>
 
-      <div className="relative flex justify-around items-end w-full md:-top-[100px] max-md:flex-col-reverse max-md:items-center max-md:gap-20">
+      <div className="relative flex justify-around items-end w-full md:-top-[200px]  max-md:flex-col-reverse max-md:items-center max-md:gap-20">
       {/* Bottom Left Section */}
       <div className="relative max-md:max-w-[80%] bottom-[40px]">
       <h2 className="text-xs font-medium md:mt-2 leading-snug max-md:text-md w-72">
