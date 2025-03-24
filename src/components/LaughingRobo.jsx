@@ -8,6 +8,7 @@ import fingers from "../assets/fingers.png";
 import iphone_15 from "../assets/dash.png";
 // import star from "../assets/star.png";
 import star from "../assets/laughingRoboStar.png";
+import line from "../assets/laughingRoboLine.png";
 
 const LaughingRobo = () => {
   return (
@@ -15,6 +16,8 @@ const LaughingRobo = () => {
       className="relative w-full min-h-screen mt-0 mb:mt-64 flex flex-col justify-center items-center bg-no-repeat bg-center bg-cover rounded-t-3xl z-10"
       style={{ backgroundColor: "#ffd972" }}
     >
+        <img src={line} className="max-w-8 absolute right-16 bottom-[120%] hidden lg:block"/>
+
       {/* Background Vector */}
       <img
         src={Vector}
@@ -30,6 +33,18 @@ const LaughingRobo = () => {
         alt=""
         className="z-10"
       />
+       <div className="absolute md:-bottom-[15vh] -right-[2vw] flex flex-col gap-4  max-md:right-[5vw] max-md:gap-2">
+        <span className="mb-6 text-xs text-gray-900 md:block hidden">/ 06</span>
+        <div className=" rounded-lg shadow-lg w-[5vw] h-[5vw] flex justify-center items-center max-md:w-[8vw] max-md:h-[8vw]">
+          <img src={eyes} alt="" className="w-full h-full object-contain" />
+        </div>
+        <div className=" rounded-lg shadow-lg w-[5vw] h-[5vw] flex justify-center items-center max-md:w-[8vw] max-md:h-[8vw]">
+          <img src={fingers} alt="" className="w-full h-full object-contain" />
+        </div>
+        <div className=" rounded-lg shadow-lg w-[5vw] h-[5vw] flex justify-center items-center max-md:w-[8vw] max-md:h-[8vw]">
+          <img src={temp} alt="" className="w-full h-full object-contain" />
+        </div>
+      </div>
      <img src={star} className="max-h-32 absolute -bottom-10  -left-10 z-20"/>
      <div className="absolute bg-white rounded-2xl p-[2px] border border-black -bottom-4 md:left-1/2 left-10 max-md:z-30">
         <div className="relative">
@@ -87,18 +102,7 @@ const LaughingRobo = () => {
       </div>
 
       {/* Right Side Icons */}
-      <div className="absolute md:top-[10vh] right-[5vw] flex flex-col gap-4  max-md:right-[5vw] max-md:gap-2">
-        <span className="mb-6 text-xs text-gray-900 md:block hidden">/ 06</span>
-        <div className="bg-yellow-400 rounded-lg shadow-lg w-[5vw] h-[5vw] flex justify-center items-center max-md:w-[8vw] max-md:h-[8vw]">
-          <img src={eyes} alt="" className="w-full h-full object-contain" />
-        </div>
-        <div className="bg-yellow-400 rounded-lg shadow-lg w-[5vw] h-[5vw] flex justify-center items-center max-md:w-[8vw] max-md:h-[8vw]">
-          <img src={fingers} alt="" className="w-full h-full object-contain" />
-        </div>
-        <div className="bg-yellow-400 rounded-lg shadow-lg w-[5vw] h-[5vw] flex justify-center items-center max-md:w-[8vw] max-md:h-[8vw]">
-          <img src={temp} alt="" className="w-full h-full object-contain" />
-        </div>
-      </div>
+     
     </div>
   );
 };
