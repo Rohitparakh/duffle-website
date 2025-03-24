@@ -46,9 +46,9 @@ const LaughingRobo = () => {
         </div>
       </div>
      <img src={star} className="max-h-32 absolute -bottom-10  -left-10 z-20"/>
-     <div className="absolute bg-white rounded-2xl p-[2px] border border-black -bottom-4 md:left-1/2 left-10 max-md:z-30">
+     <div className="absolute bg-white rounded-full p-[4px] border-[2px] border-orange-500 -bottom-4 md:left-1/2 left-10 max-md:z-30">
         <div className="relative">
-          <button className="bg-black md:text-lg text-sm text-white px-6 py-2 rounded-2xl  shadow-lg border-2 border-[#ffd972]">
+        <button className="bg-black md:text-lg text-sm text-white px-10 py-2 rounded-full shadow-[0_2px_2px_rgba(249,115,22,1)]">
             Launch App
           </button>
         </div>
