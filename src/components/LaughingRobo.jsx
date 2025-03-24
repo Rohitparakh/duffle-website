@@ -6,7 +6,8 @@ import eyes from "../assets/eyes.png";
 import temp from "../assets/temp.png";
 import fingers from "../assets/fingers.png";
 import iphone_15 from "../assets/dash.png";
-import star from "../assets/star.png";
+// import star from "../assets/star.png";
+import star from "../assets/laughingRoboStar.png";
 
 const LaughingRobo = () => {
   return (
@@ -22,14 +23,15 @@ const LaughingRobo = () => {
       />
 
       {/* iPhone Image */}
-      <div className="relative md:w-[70rem] md:-top-[200px] top-0">
+      <div className="relative md:w-[70rem] md:-top-[200px] top-0 ">
       <div className="relative">
       <img
         src={iphone_15}
         alt=""
-        className=""
+        className="z-10"
       />
-     <div className="absolute bg-white rounded-2xl p-[2px] border border-black -bottom-4 md:left-1/2 left-10">
+     <img src={star} className="max-h-32 absolute -bottom-10  -left-10 z-20"/>
+     <div className="absolute bg-white rounded-2xl p-[2px] border border-black -bottom-4 md:left-1/2 left-10 max-md:z-30">
         <div className="relative">
           <button className="bg-black md:text-lg text-sm text-white px-6 py-2 rounded-2xl  shadow-lg border-2 border-[#ffd972]">
             Launch App
