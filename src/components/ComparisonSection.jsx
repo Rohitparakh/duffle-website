@@ -41,19 +41,19 @@ export default function WhyUsSection() {
     <div className="max-h-[500px] flex flex-col gap-20 items-center p-2 max-md:gap-10 max-md:p-2">
       <h5 className="text-xs font-semibold uppercase max-md:h-[136px] h-[80px]"></h5>
       <p className="relative z-20 text-xs font-semibold uppercase max-md:text-[10px]">
-        YEILD
+      Integrations
         <div className='absolute -bottom-[40px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
         </p>
       
-      <p className="relative text-xs uppercase max-md:text-[10px]">SECURITY
-      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
-
-      </p>
       <p className="relative text-xs uppercase max-md:text-[10px]">FEES
       <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
 
       </p>
-      <p className="relative text-xs uppercase max-md:text-[10px]">WITHDRAWALS
+      <p className="relative text-xs uppercase max-md:text-[10px]">Supported Chains
+      <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
+
+      </p>
+      <p className="relative text-xs uppercase max-md:text-[10px]">Decentralised
       <div className='absolute -bottom-[45px] left-[-20vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-bottom-[20px]'></div>
       
       </p>

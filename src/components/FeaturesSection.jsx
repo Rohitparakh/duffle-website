@@ -90,8 +90,7 @@ const FeaturesSection = () => {
                       Fused Cross-Chain Balance
                     </h3>
                     <p className="text-[#535353] font-light">
-                      Unified Balance Spend: Combine all your USDT, USDC, and ETH across chains into a single, spendable balance. Withdraw $300 spread across Optimism, Solana, and Base to any chain—even Avalanche—seamlessly, no bridging required.
-                    </p>
+                    Unified Balance Spend: Combine all your USDT, USDC, and ETH across chains into a single, spendable balance.                     </p>
                   </article>
 
 
@@ -103,7 +102,7 @@ const FeaturesSection = () => {
                       Automated One-Click Yield
                     </h3>
                     <p className="text-[#535353] font-light ">
-                      Make one-click deposits into yield protocols like Aave, Compound, and Ethena, with fully automated backend chain management and a unified dashboard for tracking yield across protocols and chains.
+                    Make one-click deposits into protocols like Aave, Compound, Ethena and start earning Yield. Whilst we take care of the complexities in the backend.
                     </p>
                     </div>
                     

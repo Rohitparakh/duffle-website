@@ -22,12 +22,10 @@ const Rocket = () => {
             {/* First Box */}
             <article className="relative bg-[#f5f5f5] px-6 pt-16 pb-6 max-w-full rounded-3xl border-2 border-orange-500 min-h-[269px] w-[326px] max-md:px-5 after:content-[''] after:absolute after:right-[-10px] after:bottom-[-10px] after:w-full after:h-full after:border-r-2 after:border-b-2 after:border-orange-500 after:rounded-3xl after:-z-20">
             <h3 className="text-xl font-semibold tracking-normal">
-                Mindset Shift Toward Independence
+            Move Money Like You Mean It
               </h3>
               <p className="mt-3 text-base">
-                No more relying on outdated systems—take full control of
-                your financial future, where you decide how, when, and
-                where to use your money.
+              No more bridging, gas or worrying about chains. One platform, every transaction
               </p>
             </article>
           </div>
@@ -35,12 +33,10 @@ const Rocket = () => {
           {/* Second Box */}
           <article className=" shadow-[8px_7px_0_rgba(249,115,22,1)] relative max-w-[90vw] -left-[7%] bg-[#f5f5f5] lg:left-0 flex flex-col justify-center p-6 mt-6 rounded-3xl border-2 border-orange-500 w-[391px] max-md:px-5 after:content-[''] after:absolute after:right-[-10px] after:bottom-[-10px] after:w-full after:h-full after:border-r-2 after:border-b-2 after:border-orange-500 after:rounded-3xl after:-z-20">
           <h3 className="text-xl font-semibold tracking-normal">
-              Freedom to Move, Freedom to Choose
+          Go Anywhere, Trade Everywhere 
             </h3>
             <p className="mt-3 text-base">
-              Whether you're traveling, working remotely, or living
-              life on your own terms, your financial world adapts to
-              you—not the other way around.
+            Whether you're traveling, commuting, or relaxing at home, you'll never miss an opportunity to trade. Access all the trading tools you'll need on both mobile & desktop.
             </p>
           </article>
         </div>
@@ -50,12 +46,10 @@ const Rocket = () => {
           {/* Third Box */}
           <article className="relative bg-[#f5f5f5] z-10 px-6 pt-6 pb-24 max-w-full rounded-3xl border-2 border-orange-500 min-h-[258px] w-[388px] max-md:px-5 after:content-[''] after:absolute after:right-[-10px] after:bottom-[-10px] after:w-full after:h-full after:border-r-2 after:border-b-2 after:border-orange-500 after:rounded-3xl after:z-0">
           <h3 className="text-xl font-semibold tracking-normal leading-tight">
-              A Community-Driven Economy
+          One Platform. Every Route.
             </h3>
             <p className="mt-3 text-base leading-6">
-              Move beyond transactions and into real connections,
-              where value is exchanged peer-to-peer, and financial
-              power is shared, not centralized.
+            With 40+ protocols integrated from bridges to dexs inc. Relay, DeBridge, LiFi & more. We are the best price. This is how DeFi should feel, fast, efficient & frictionless
             </p>
           </article>
 
@@ -71,12 +65,10 @@ const Rocket = () => {
           <article className="relative bg-[#f5f5f5] z-10 flex flex-col justify-center items-end p-6 mt-20 rounded-3xl border-2 border-orange-500 max-md:px-5 max-md:mt-10 max-md:max-w-full after:content-[''] after:absolute after:right-[-10px] after:bottom-[-10px] after:w-full after:h-full after:border-r-2 after:border-b-2 after:border-orange-500 after:rounded-3xl after:z-0">
           <div className="max-w-full w-[340px]">
               <h3 className="text-xl font-semibold tracking-normal leading-tight">
-                Confidence in a Changing World
+              Bigger Than Crypto 
               </h3>
               <p className="mt-3 text-base leading-6">
-                Stay ahead of the curve and navigate the evolving
-                financial landscape with ease, embracing a future
-                where digital assets are second nature.
+              Welcome to finance without boarders. We unlock global finance through tokenised stocks - Accessible to everyone
               </p>
             </div>
           </article>

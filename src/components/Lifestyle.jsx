@@ -16,7 +16,7 @@ const Lifestyle = () => {
       {/* Main Content */}
       <div className="mt-5 max-w-[30rem] flex flex-col items-start max-md:max-w-full">
         <h2 className="text-6xl font-bold tracking-tighter text-black leading-[64px] max-md:text-4xl max-md:leading-[48px]">
-          Change the way you use
+          Changing the way you use
           <img
             src="https://cdn.builder.io/api/v1/image/assets/fdf58656f4d74f40b9bb2cf067df0bd0/4f18f4bc3b95ea8c975ff6ff736c368386f826d0?placeholderIfAbsent=true"
             alt="Crypto"
@@ -24,9 +24,7 @@ const Lifestyle = () => {
           />
         </h2>
         <p className="mt-5 text-base leading-6 text-black max-md:max-w-full">
-          For years, crypto has been seen as an investment, something to hold and
-          watch. But what if it could be more? What if it became part of your
-          everyday life—seamless, intuitive, and empowering?
+        Our first milestone is a user-friendly trading experience. We’ve abstracted the usual DeFi hurdles—like gas fees, bridging, chains and technical jargon—so it feels as simple as Robinhood, yet still retains the security and freedom of DeFi.
         </p>
       </div>
 

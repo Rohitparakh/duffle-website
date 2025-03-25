@@ -89,8 +89,8 @@ const StatisticsSection = () => {
               />
             </div>
             <div className="absolute bottom-12 left-10 max-md:static max-md:mt-20 max-md:text-center">
-              <h3 className="text-7xl font-bold tracking-tighter text-blue-400 max-md:text-5xl">50%</h3>
-              <p className="text-neutral-600 text-lg mt-2">USD Volume Cross-Chain</p>
+              <h3 className="text-7xl font-bold tracking-tighter text-blue-400 max-md:text-5xl">40+</h3>
+              <p className="text-neutral-600 text-lg mt-2">Protocols & DEX's Integrated</p>
             </div>
           </article>
 
@@ -107,8 +107,8 @@ const StatisticsSection = () => {
 
             {/* Text Content - Position Adjusted */}
             <div className="absolute bottom-12 left-10 max-md:static max-md:mt-20 max-md:text-center">
-              <h3 className="text-7xl font-bold tracking-tighter text-blue-400 mt-2 max-md:text-5xl">345K</h3>
-              <p className="text-neutral-600 text-lg">Transactions per minute</p>
+              <h3 className="text-7xl font-bold tracking-tighter text-blue-400 mt-2 max-md:text-5xl">+1 Bill</h3>
+              <p className="text-neutral-600 text-lg">Daily volume</p>
             </div>
           </article>
         </div>

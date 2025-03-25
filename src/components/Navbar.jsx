@@ -2,14 +2,15 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import duffleLogo from '../assets/duffleLogo.png';
 import heroHand from '../assets/heroHand.png';
+import aboutHand from '../assets/aboutHand.png';
 
 const NAV_ITEMS = [
   { name: "Features", url: "#features" },
   { name: "Statistics", url: "#statistics" },
   { name: "Positioning", url: "#positioning" },
   { name: "NFTs", url: "#nfts" },
-  { name: "Lifestyle", url: "#lifestyle" },
-  { name: "Don't miss out", url: "#dontMissOut" },
+  // { name: "Lifestyle", url: "#lifestyle" },
+  // { name: "Don't miss out", url: "#dontMissOut" },
 ];
 
 const Navbar = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-10 text-gray-600 border border-gray-900 px-5 py-2 rounded-3xl">
         <li  >
-              <a  className="cursor-pointer text-orange-600 hover:text-black transition">About Us</a>
+              <a  className="cursor-pointer text-orange-600 hover:text-black transition flex items-center gap-1"><img src={aboutHand} alt="about" className="h-4"/>About Us</a>
             </li>
           {NAV_ITEMS.map(({ name, url }) => (
             <li key={name} >

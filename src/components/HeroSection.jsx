@@ -3,6 +3,7 @@ import React from 'react';
 import hero from '../assets/hero.png';
 import hero1 from '../assets/hero1.png';
 import hero2 from '../assets/hero2.png';
+import flag from '../assets/flag.png';
 
 const HeroSection = () => {
   return (
@@ -47,10 +48,10 @@ const HeroSection = () => {
             />
           </div>
           <p className='text-base font-normal text-gray-800 leading-[64px] max-md:leading-[48px]'>Change the way you use crypto.</p>
-          <div className=" bg-white rounded-full p-[4px] border-[2px] border-orange-500 -bottom-4 left-1/2 ">
+          <div className=" bg-white rounded-full p-[4px] border-[2px] border-black -bottom-4 left-1/2 ">
         <div className="relative">
-          <button className="bg-black md:text-lg text-sm text-white px-10 py-2 rounded-full shadow-[0_2px_2px_rgba(249,115,22,1)]">
-            Launch App
+          <button className="bg-black md:text-lg text-sm flex items-center gap-2 text-white px-10 py-2 rounded-full shadow-[0_2px_2px_rgba(249,115,22,1)]">
+            Take Flight <img src={flag} alt="flag"  className='h-8'/>
           </button>
         </div>
           </div>
