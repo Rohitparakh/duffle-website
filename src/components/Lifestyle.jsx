@@ -23,9 +23,9 @@ const Lifestyle = () => {
             className="object-contain inline-block ml-3 w-[242px] max-md:w-[180px] max-md:ml-2"
           />
         </h2>
-        <p className="mt-5 text-base leading-6 text-black max-md:max-w-full">
+        {/* <p className="mt-5 text-base leading-6 text-black max-md:max-w-full">
         Our first milestone is a user-friendly trading experience. We’ve abstracted the usual DeFi hurdles—like gas fees, bridging, chains and technical jargon—so it feels as simple as Robinhood, yet still retains the security and freedom of DeFi.
-        </p>
+        </p> */}
       </div>
 
       {/* Absolute Positioning Text */}

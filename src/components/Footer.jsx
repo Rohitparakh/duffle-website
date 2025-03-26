@@ -47,8 +47,8 @@ const Footer = () => {
                         </div>
 
                         {/* Launch App Button */}
-                        <button className="mt-3 bg-black text-white py-2 px-6 rounded-lg text-sm md:text-base">
-                            Launch App
+                        <button className="mt-3 bg-black text-white py-2 px-6 rounded-full text-sm md:text-base">
+                            Take Flight
                         </button>
                     </div>
                 </div>

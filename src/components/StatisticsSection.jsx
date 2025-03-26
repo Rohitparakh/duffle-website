@@ -51,10 +51,7 @@ const StatisticsSection = () => {
                     className="object-contain mt-3.5 max-w-full aspect-[4.27] w-[231px] max-md:w-[150px]"
                   />
                   <p className="self-stretch mt-6 text-base leading-6 max-w-[70%] max-md:max-w-full">
-                    Crypto isn't just numbers on a screen—it's an evolving,
-                    dynamic economy. Understanding how money flows across
-                    chains, providers, and ecosystems helps us see the bigger
-                    picture of decentralized finance.
+                    History shows that value accrues most in the application layer—where real users interact and real utility emerges. Our mission is to lead that charge with Duffle, ensuring digital assets fit into people’s routines without friction.
                   </p>
                 </div>
               </div>
@@ -88,7 +85,7 @@ const StatisticsSection = () => {
                 className="w-[12rem] object-contain max-md:w-[8rem]"
               />
             </div>
-            <div className="absolute bottom-12 left-10 max-md:static max-md:mt-20 max-md:text-center">
+            <div className="absolute bottom-12 left-8 max-md:static max-md:mt-20 max-md:text-center">
               <h3 className="text-7xl font-bold tracking-tighter text-blue-400 max-md:text-5xl">40+</h3>
               <p className="text-neutral-600 text-lg mt-2">Protocols & DEX's Integrated</p>
             </div>
@@ -106,7 +103,7 @@ const StatisticsSection = () => {
             </div>
 
             {/* Text Content - Position Adjusted */}
-            <div className="absolute bottom-12 left-10 max-md:static max-md:mt-20 max-md:text-center">
+            <div className="absolute bottom-10 left-12 max-md:static max-md:mt-20 max-md:text-center">
               <h3 className="text-7xl font-bold tracking-tighter text-blue-400 mt-2 max-md:text-5xl">+1 Bill</h3>
               <p className="text-neutral-600 text-lg">Daily volume</p>
             </div>

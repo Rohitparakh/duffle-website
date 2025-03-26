@@ -27,7 +27,7 @@ const NFTSection = () => {
             We have <img src={nft} alt="NFT" className="inline-block h-12 max-md:h-8" /> as well
           </h2>
           <p className="mt-4 text-base text-neutral-700 max-md:text-sm">
-            Backed by industry-leading angel investors and one of the most sought-after products to gain early access to.
+          Our NFT collection isn’t just about art, it’s about connection, fostering a community where creativity meets belonging.
           </p>
         </div>
         <div className="flex justify-end items-center mt-4 gap-2 text-red-400 max-md:justify-start">

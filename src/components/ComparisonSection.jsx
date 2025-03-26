@@ -68,10 +68,10 @@ export default function WhyUsSection() {
       />
 
       <div className="flex flex-col gap-16 max-md:gap-[2.6rem] max-md:mt-[12.5px] mt-[15px]">
-        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[15px]">6%-15%</p>
-        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0   -mt-[15px]">Protected deposits</p>
-        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">No fees</p>
-        <p className="text-xs md:font-bold uppercase max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">Instant</p>
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[15px]">40+</p>
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0   -mt-[15px]">Zero Fees</p>
+        <p className="text-xs md:font-bold uppercase mb-8 max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">10+</p>
+        <p className="text-xs md:font-bold uppercase max-md:text-[10px] max-md:mt-0 max-md:mb-0 -mt-[20px]">Yes</p>
       </div>
       <img
         src={bigger_than_crypto}
@@ -88,10 +88,10 @@ export default function WhyUsSection() {
       <div className='absolute top-[120px] left-[-50vw] h-[1px] w-[100vw] bg-gray-300 max-md:w-[1000vw] max-md:-left-[100vw]'></div>
 
       </div>
-      <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
-      <p className="text-xs uppercase max-md:text-[10px]">FDIC (BANK ONLY)</p>
-      <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
-      <p className="text-xs uppercase max-md:text-[10px]">2-3 Days</p>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">N/A</p>
+      <p className="text-xs uppercase max-md:text-[10px]">0.6%</p>
+      <p className="text-xs uppercase max-md:text-[10px]">9</p>
+      <p className="text-xs uppercase max-md:text-[10px]">0.6%</p>
     </div>
 
     {/* Robinhood */}
@@ -100,20 +100,20 @@ export default function WhyUsSection() {
         <img src={robinhood} className="h-16" />
         <h3 className="text-xs font-semibold uppercase max-md:mt-6 max-md:mb-8">ROBINHOOD</h3>
       </div>
-      <p className="text-xs font-semibold uppercase max-md:text-[10px]">4%</p>
-      <p className="text-xs uppercase max-md:text-[10px]">FDIC (BANK ONLY)</p>
-      <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
-      <p className="text-xs uppercase max-md:text-[10px]">2-3 Days</p>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">N/A</p>
+      <p className="text-xs uppercase max-md:text-[10px]">$2/M</p>
+      <p className="text-xs uppercase max-md:text-[10px]">N/A</p>
+      <p className="text-xs uppercase max-md:text-[10px]">No</p>
     </div>
 
     {/* Other DeFi */}
     <div className="max-h-[500px] flex flex-col gap-20 items-center p-4 max-md:gap-10 max-md:p-2 mt-4">
     {/* <div className="h-16" /> */}
       <h3 className="text-xs font-semibold uppercase mt-12 max-md:mt-[4.5rem] max-md:mb-8">OTHER DEFI</h3>
-      <p className="text-xs font-semibold uppercase max-md:text-[10px]">6%-20%+</p>
-      <p className="text-xs uppercase max-md:text-[10px]">No protection</p>
-      <p className="text-xs uppercase max-md:text-[10px]">No fees</p>
-      <p className="text-xs uppercase max-md:text-[10px]">Mixed</p>
+      <p className="text-xs font-semibold uppercase max-md:text-[10px]">Varies</p>
+      <p className="text-xs uppercase max-md:text-[10px]">0.1-1%</p>
+      <p className="text-xs uppercase max-md:text-[10px]">Single Chain Generally</p>
+      <p className="text-xs uppercase max-md:text-[10px]">Yes</p>
     </div>
   </div>
       </div>
