@@ -44,7 +44,7 @@ const HeroSection = () => {
             <img
               src={hero}
               alt="Phone UI"
-              className="object-contain self-center  rounded-3xl z-40 relative max-md:w-[300px]"
+              className="object-contain self-center  rounded-3xl z-40 relative max-md:w-[500px]"
             />
           </div>
           {/* <p className='text-base font-normal text-gray-800 leading-[64px] max-md:leading-[48px]'>Change the way you use crypto.</p> */}
