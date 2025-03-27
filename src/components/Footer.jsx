@@ -36,7 +36,7 @@ const Footer = () => {
                         {/* Social Links */}
                         <div className="flex items-center gap-4 text-gray-700">
                             <span className="text-sm">Stay up to date</span>
-                            <a href="https://x.com/dufflelabs" target='_blank' className="text-xl hover:text-black">
+                            <a href="https://x.com/duffleinc" target='_blank' className="text-xl hover:text-black">
                                     <img src={twitter} height={26} width={26}/>
                                 </a>
                                 <a href="#" className="text-xl hover:text-black">
