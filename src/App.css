@@ -6,3 +6,18 @@ body{
   background-color: #f5f5f5;
   overflow-x: hidden;
 }
+
+.slick-arrow{
+  height: 60px !important;
+  width: 60px !important;
+  z-index: 999;
+}
+
+@media(max-width:768px){
+  .slick-arrow.slick-prev{
+    left: -12vw;
+  }
+  .slick-arrow.slick-next{
+    right: -12vw;
+  }
+}
