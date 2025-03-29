@@ -30,7 +30,7 @@ const profiles = [
     { image: thebrianjung, username: "thebrianjung" },
     { image: VDiordiiev, username: "VDiordiiev" },
     { image: krybharat, username: "krybharat" },
-    { image: KevinHenrikson, username: "KevinHenrikson" },
+    // { image: KevinHenrikson, username: "KevinHenrikson" },
     { image: shanicucic96, username: "shanicucic96" },
     { image: gmcapital_, username: "gmcapital_" },
 ];
