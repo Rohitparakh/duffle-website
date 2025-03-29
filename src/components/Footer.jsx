@@ -5,8 +5,9 @@ import twitter from '../assets/twitter.png';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[#F8F8F8] py-10 flex justify-center items-center border-t-2 border-[#101321] rounded-[5rem] relative mt-36">
-            <div className="w-full max-w-[1440px] flex flex-col md:flex-row items-center justify-around px-6 md:px-12">
+        <div className='bg-[rgb(255,217,114)] overflow-visible pt-36'>
+        <footer className="w-full bg-white bg-[#F8F8F8] py-10 flex justify-center items-center border-t-2 border-[#101321] rounded-t-[5rem] relative overflow-visible">
+            <div className="w-full max-w-[1440px] flex flex-col md:flex-row items-center justify-around px-6 md:px-12 overflow-visible">
 
                 {/* Left: Image */}
                 <div className="flex items-center mb-8 md:mb-0">
@@ -54,6 +55,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+        </div>
     );
 };
 

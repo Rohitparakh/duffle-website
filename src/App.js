@@ -22,7 +22,7 @@ function App() {
       <IndustryCarousel />
       <ComparisonSection />
       <LaughingRobo />
-      <NFTSection />
+      {/* <NFTSection /> */}
       <Footer/>
     </div>
   );
